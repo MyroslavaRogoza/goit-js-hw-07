@@ -10,9 +10,9 @@ function onFormSubmit(evt){
     else{       
     const userData = {
         email,
-        password,
+        password,  
     };
     console.log(userData);
-    }
     form.reset();
+    }
 }
